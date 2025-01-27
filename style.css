@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+.weatherForm{
+    margin: 20px;
+}
+#cityName{
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    padding: 20px;
+    font-size: 2rem;
+    background-color: rgb(55, 255, 0);
+    cursor: pointer;
+}
+
+#stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;   
+    background-image: linear-gradient(hsla(60, 100%, 51%, 0.789),hsla(249, 100%, 70%, 0.477));
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+    z-index: 2;
+}
