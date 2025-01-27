@@ -14,11 +14,22 @@ body {
     font-weight: bold;
 }
 
+h1{
+    margin-bottom: 25px;
+    margin-top: 0;
+
+}
+
 button{
     padding: 20px;
     font-size: 2rem;
     background-color: rgb(55, 255, 0);
     cursor: pointer;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
 }
 
 #stats{
@@ -31,10 +42,28 @@ button{
     width: 300px;   
     background-image: linear-gradient(hsla(60, 100%, 51%, 0.789),hsla(249, 100%, 70%, 0.477));
 }
+.cityDisplay , .tempDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
 
 .errorDisplay{
     font-size: 2.5rem;
     color: red;
     font-weight: bold;
     z-index: 2;
+}
+
+.weatherEmoji{
+    font-size: 7.5rem;
+    margin: 0;
+}
+
+.humidityDisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
 }
