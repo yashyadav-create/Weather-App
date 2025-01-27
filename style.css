@@ -67,3 +67,9 @@ p{
     font-weight: bold;
     margin-bottom: 25px;
 }
+
+.descDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
